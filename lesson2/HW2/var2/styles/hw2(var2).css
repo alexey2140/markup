@@ -1,0 +1,75 @@
+.square1 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	float: left;
+}
+
+.square2 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	margin-left: 25px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	float: left;
+}
+
+.square3 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	margin-left: 390px;
+}
+.square4 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	margin-top: 25px;
+	float: left;
+}
+.square5 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	margin-top: 25px;
+	margin-left: 24px;
+	float: left;
+}
+.square6 {
+	background-color: rgb(0,0,0);
+	color: white;
+	width: 150px;
+	height: 150px;
+	border: 10px groove blue;
+	font-align: center;
+	line-height: 150px;
+	margin-left: 25px;
+	margin-top: 25px;
+	float: left;
+}
+
+#container {
+	width: 522px;
+	padding-top: 50px;
+	outline: 3px solid #cccccc;
+	margin: auto;
+}
