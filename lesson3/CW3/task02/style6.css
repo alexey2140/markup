@@ -1,0 +1,19 @@
+#block {
+	width: 250px;
+	font-size: 20pt sans-serif;
+	border: 2px solid red;
+	padding: 20px;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+
+#circle {
+	background: aqua;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: fixed;
+	top: 200px;
+	left: 380px;
+}

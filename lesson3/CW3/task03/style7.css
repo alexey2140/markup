@@ -1,0 +1,8 @@
+#bgr {
+	width: 600px;
+	border: solid black 2px;
+	height: 400px;
+	background: url(ubuntu-logo32.png) no-repeat, url(6-2-480x480.jpg) no-repeat;
+	background-size: 300px, cover;
+	background-position: center center, 200px 100px;
+}

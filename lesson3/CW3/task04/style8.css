@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 940px;
+	margin: 0 auto;
+	font-family: 'Neucha', cursive;
+}
+
+p {
+	display: inline;
+	font-size: 18pt;
+	line-height: 120%;
+}
+
+.left, .right {
+	width: 880px;
+	height: 280px;
+	padding: 30px;
+	margin-top: 25px;
+	border-radius: 10px;
+
+}
+
+.left {
+	background-color: #ffadc2;
+
+}
+
+.right {
+	background-color: #adc2ff;
+}
+
+.left img {
+	float: right;
+}
+
+.right img {
+	float: left;
+	margin-right: 10px;
+
+}
+
+h2 {
+	font-size: 40px;
+}
