@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#placeholder {
+	margin:  0 auto;
+	width: 75%;
+	text-align: center;
+}
+
+.full {
+	width: 100%;
+	height: 200px;
+	background-color: gray;
+	display: inline-block;
+	text-align: center;
+	line-height: 200px;
+}
+
+#sidebar {
+	width: 30%;
+	margin: 15px;
+	display: inline-block;
+}
+
+#content {
+	width: 65%;
+	background-color: yellow;
+	display: inline-block;
+}
+
+p {
+	display: inline;
+	font: normal 30pt sans-serif; 
+}
+
+#letter {
+	font: normal 30pt sans-serif;
+}
