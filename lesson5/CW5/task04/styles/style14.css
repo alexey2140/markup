@@ -1,0 +1,42 @@
+#round {
+	width: 40vmax;
+	height: 40vmax;
+	border-radius: 20vmax;
+	z-index: 1;
+	background: rgb(0, 207, 237);
+	position: relative;
+	top: 150px;
+	left: 200px;
+}
+
+.triangle-top {
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-bottom: 80px solid green;
+	position: absolute;
+	top: 60px;
+	left: 220px;
+
+}
+
+.triangle-top:nth-child(2) {
+	top: 120px;
+	transform: scale(1.3);
+
+}
+
+.triangle-top:nth-child(3) {
+	top: 180px;
+	transform: scale(1.6);
+}
+
+.tree {
+	width: 30px;
+	height: 40px;
+	position: absolute;
+	top: 349px;
+	background-color: maroon;
+	left: 255px;
+
+}

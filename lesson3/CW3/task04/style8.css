@@ -72,6 +72,40 @@ nav {
 	bottom: 0px;
 	background-color: rgba(255,255,255,0.6);
 }
+
+form {
+	position: absolute;
+	top: 400px;
+	right: 15px;
+	width: 325px;
+	height: 140px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 40px;
+	padding: 10px;
+}
+
+form h3 {
+	font-size: 18pt;
+	font-variant: small-caps;
+
+
+}
+
+input {
+	border-radius: 15px;
+	height: 30px;
+	width: 275px;
+	border: 0;
+	outline: 0;
+	margin-bottom: 4px;
+	padding: 0 20px;
+
+}
+
+input[type=submit] {
+width: 100px;
+margin-left: 100px;
+}
 	a {
 		text-decoration: none;
 		color: black;

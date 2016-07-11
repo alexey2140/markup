@@ -1,0 +1,14 @@
+span::before {
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	content: "";
+	transform: rotate(135deg);
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+
+}
+
+span::after {
+	content: " some text";
+}

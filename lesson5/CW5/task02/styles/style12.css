@@ -1,0 +1,42 @@
+#content {
+	width: 400px;
+	height: 400px;
+	background-color: #abc2ff;
+	z-index: 1;
+	left: 200px;
+	top: 100px;
+	position: absolute;
+}
+
+#first {
+	width: 100px;
+	height: 100px;
+	background-color: #ffadc2;
+	z-index: 4;
+	position: absolute;
+	top: 100px;
+	left: 30%;
+	transform: translate(100px);
+}
+
+#second {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 3;
+	top: 140px;
+	left: 35%;
+	transform: rotate(20deg);
+}
+
+#third {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	left: 40%;
+	transform: skewX(20deg);
+}

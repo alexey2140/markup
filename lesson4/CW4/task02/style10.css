@@ -1,17 +1,4 @@
 div {
-	margin: 12% auto;
+	margin: auto;
 	width: 300px;
-}
-
-
-html {
-	height: 100%
-}
-
-#round {
-	width: 10vh;
-	height: 10vh;
-	border-radius: 5vh;
-	background-color: black;
-	.......
 }
