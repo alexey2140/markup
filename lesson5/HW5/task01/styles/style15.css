@@ -1,0 +1,61 @@
+body { 
+ background: linear-gradient(#99E0F8, #F5F6F6 25%);
+ height: 1000px;
+}
+#logo {margin: 38px 294px 41px 295px;}
+#copy {margin: 45px 390px;}
+#more {position: relative; bottom: 580px;left:-170px;z-index: 999;}
+#text {margin: 22px;}
+#text2 {margin: 2px;}
+h5 {color: #99E0F8;margin-left: 74px;font-size: 20px;}
+h4 {color: #99E0F8; margin-left: 20px;}
+#container {
+	width: 900px;
+	height: 899px;
+	border: 1px solid #99E0F8;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+#header {
+	width: 900px;
+	height: 110px;
+	border-bottom: 2px solid #99E0F8;
+	background-color: #F5F5F5;
+}
+#content {
+	width: 900px;
+	height: 685px;
+}
+#left {
+	width: 303px;
+	height: 447px;
+	border: 2px solid #99E0F8;
+	position: relative;
+	top: 63px;
+	left: 22px;
+	float: left;
+}
+#right {
+	width: 491px;
+	height: 464px;
+	border: 2px solid green;
+	position: relative;
+	left: 389px;
+	top: 65px;
+
+}
+#banner {
+	width: 858px;
+	height: 80px;
+	position: relative;
+	top: 106px;
+	left: 21px;
+	background-color: #F3C5CB;
+	background-image: url(file:///C:/Users/Alexey/IdeaProjects/markup/lesson5/HW5/task01/images/banner.png);
+}
+#footer {
+	width: 900px;
+	height: 100px;
+	background-color: #99E0F8;
+	border-top: 2px solid #E3E3E4;
+}
