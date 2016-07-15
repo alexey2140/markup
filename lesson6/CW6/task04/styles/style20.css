@@ -1,0 +1,26 @@
+.first {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30px;
+	background-color: red;
+
+}
+
+#second {
+	width: 400px;
+	height: 250px;
+	background-color: green;
+
+}
+
+@media all and(max-width: 600px) {
+	.first {
+		background-color: blue;
+
+	}
+	#second {
+		background-color: black;
+		color: white;
+		font-size: 60px;
+	}
+}

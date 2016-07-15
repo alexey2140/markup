@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*first*/
+/*second*/
+
+/*
+
+html, body, .wrapper {
+	height: 100%;
+}
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 90px;
+}
+
+footer {
+	height: 80px;
+	margin-top: -80px;
+	background: aqua;
+}
+
+*/
+
+/*second*/
+
+/*third*/
+
+/*
+
+html, body {
+	height: 100%;
+
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	padding-bottom: 90px;
+}
+
+footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background: aqua;
+}
+
+*/
