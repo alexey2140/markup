@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#mainmenu {
+    position: relative;
+    border: 1px solid #222;
+    background-color: #111;
+    border-radius: 6px;
+    height: 40px;
+    margin: 50px auto;
+    padding: 0;
+    width: 960px;
+    z-index: 10
+}
+ 
+#mainmenu ul, 
+#mainmenu ul ul,
+#mainmenu ul ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#mainmenu ul {
+    clear: left;
+    position: relative;
+    right: 50%;
+    height: 40px;
+    float: right;
+    text-align: center;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#mainmenu ul li {
+    border-right: 1px solid #222;
+    position: relative;
+    left: 50%;
+    float: left;
+    height: 39px;
+}
+
+#mainmenu ul li a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 13px 25px
+}
+#mainmenu ul > li:hover > a {
+    background-color: #0186BA;
+    color: #fafafa;
+}
+ 
+/* Выпадающие подпункты **/
+ 
+#mainmenu ul li ul {
+    background: #444;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    text-transform: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    line-height: 18px;
+    top: 39px;
+    font-size: 12px;
+    margin-top: 20px;
+    height: auto;
+    min-width: 150px;
+    width: 100%;
+}
+#mainmenu ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transition: margin 0.3s ease 0s;
+    margin: 0;
+    z-index: 11;
+}
+#mainmenu ul li ul li {
+    border: none;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    position: relative;
+    left: 0;
+    float: none;
+    height: auto;
+    text-align: left;
+}
+
+#mainmenu ul li ul li a {
+    padding: 10px 15px;
+    border: none
+}
+ 
+/* Выпадающие пункты второго уровня */
+ 
+#mainmenu ul li ul li ul {
+    top: 0;
+    left: 98%;
+    margin: 0 0 0 20px;
+}
+ 
+/** Индикатор наличия подкатегорий 2 уровня **/
+ 
+#mainmenu > ul > li ul li.parent > a::after {
+    border-left: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    margin: 7px 0px 0px 8px;
+    transform: rotate(135deg);
+    height: 5px;
+    width: 5px;
+    float: right;
+}

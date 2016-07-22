@@ -1,0 +1,269 @@
+html {
+	background-color: #EEEEEE;
+}
+body {
+	width: 960px;
+	height: 1100px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+
+}
+.header {
+	position: absolute;
+	left: -35px;
+	width: 1030px;
+	height: 89px;
+}
+#logo {
+	position: absolute;
+	top: 25px;
+	left: 34px;
+}
+#figure4 {
+	position: absolute;
+	top: 29px;
+	right: 36px;
+}
+.footer {
+	position: absolute;
+	bottom: 0px;
+	left: -35px;
+	width: 1030px;
+	height: 90px;
+}
+#footer-buttons {
+	position: absolute;
+	top: 22px;
+	right: 37px;
+}
+#footer-copy {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+.middle-wrapper {
+	position: absolute;
+	top: 89px;
+	width: 960px;
+	height: 921px;
+}
+.navigation {
+	position: absolute;
+	top: 13px;
+	left: 21px;
+	width: 391px;
+	height: 44px;
+}
+.navigation>div {
+	background-color: #EDF8FC;
+	border-radius: 10px;
+}
+#home {
+	position: absolute;
+	width: 88px;
+	height: 44px;
+}
+#home-button {
+	position: absolute;
+	left: 23px;
+	top: 16px;
+}
+#products {
+	position: absolute;
+	left: 106px;
+	width: 88px;
+	height: 44px;
+}
+#products-button {
+	position: absolute;
+	left: 13px;
+	top: 16px;
+}
+#blog {
+	position: absolute;
+	left: 206px;
+	width: 88px;
+	height: 44px;
+}
+#blog-button {
+	position: absolute;
+	left: 29px;
+	top: 15px;
+}
+#contact {
+	position: absolute;
+	right: 0px;
+	width: 88px;
+	height: 44px;
+}
+#contact-button {
+	position: absolute;
+	left: 16px;
+	top: 15px;
+}
+.aside {
+	position: absolute;
+	top: 0px;
+	left: 640px;
+	width: 320px;
+	height: 921px;
+	background-color: #EDF8FC;
+}
+h4 {
+	position: absolute;
+	top: 69px;
+	left: 28px;
+}
+#aside-title {
+	font-family: "plantagenet cherokee regular";
+	font-size: 28px;
+	font-weight: normal;
+}
+#aside-item1 {
+	position: absolute;
+	top: 155px;
+	left: 28px;
+	width: 272px;
+	height: 73px;
+}
+#aside-item1-text {
+	position: absolute;
+	top: 3px;
+	left: 109px;
+}
+#aside-item2 {
+	position: absolute;
+	top: 228px;
+	left: 28px;
+	width: 272px;
+	height: 81px;
+}
+#aside-item2-text {
+	position: absolute;
+	top: 3px;
+	left: 109px;
+}
+#aside-item3 {
+	position: absolute;
+	top: 323px;
+	left: 28px;
+	width: 272px;
+	height: 81px;
+}
+#aside-item3-text {
+	position: absolute;
+	top: 2px;
+	left: 109px;
+}
+#aside-item4 {
+	position: absolute;
+	top: 397px;
+	left: 28px;
+	width: 272px;
+	height: 81px;
+}
+#aside-item4-text {
+	position: absolute;
+	top: 3px;
+	left: 109px;
+}
+h3 {
+	position: absolute;
+	top: 58px;
+	left: 18px;
+	font-family: 'Times New Roman';
+	font-size: 27pt;
+	font-weight: normal;
+}
+#content-text {
+	position: absolute;
+	top: 154px;
+	left: 20px;
+}
+
+#slideshow {
+	position: absolute;
+	top: 303px;
+	left: 20px;
+	width: 596px;
+	height: 259px;
+	border: 1px solid #1249C5;
+}
+#popular-title {
+	position: absolute;
+	left: 237px;
+	top: 580px;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+}
+#block1 {
+	position: absolute;
+	top: 646px;
+	left: 19px;
+	width: 189px;
+	height: 219px;
+	border: 1px solid #1249C5;
+}
+#product-title-block1 {
+	position: absolute;
+	top: -2px;
+	left: 45px;
+	font-family: arial;
+	font-size: 18px;
+}
+#bottom-block1-text {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+#bottom-button-more-blue {
+	position: absolute;
+	top: 172px;
+	left: 53px;
+}
+#block2 {
+	position: absolute;
+	top: 646px;
+	left: 224px;
+	width: 189px;
+	height: 219px;
+	border: 1px solid #1249C5;
+}
+#product-title-block2 {
+	position: absolute;
+	top: -2px;
+	left: 48px;
+	font-family: arial;
+	font-size: 18px;
+}
+#bottom-block2-text {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+#block3 {
+	position: absolute;
+	top: 646px;
+	left: 429px;
+	width: 189px;
+	height: 219px;
+	border: 1px solid #1249C5;
+}
+#product-title-block3 {
+	position: absolute;
+	top: -2px;
+	left: 45px;
+	font-family: arial;
+	font-size: 18px;
+}
+#bottom-block3-text {
+	position: absolute;
+	top: 50px;
+	left: 8px;
+}
+#animal2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
