@@ -55,7 +55,7 @@ body {
 	width: 391px;
 	height: 44px;
 }
-.navigation>div {
+.navigation>div:hover {
 	background-color: #EDF8FC;
 	border-radius: 10px;
 }
@@ -126,6 +126,12 @@ h4 {
 	left: 28px;
 	width: 272px;
 	height: 73px;
+}
+article {
+	display: table;
+}
+article>img {
+	display: table-cell;
 }
 #aside-item1-text {
 	position: absolute;
