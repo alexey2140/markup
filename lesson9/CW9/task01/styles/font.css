@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url('Blogger Sans.eot');
+  src: url('Blogger Sans.woff2') format('woff2'),
+       url('Blogger Sans.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans';
+  src: url('BloggerSans.woff') format('woff'),
+       url('BloggerSans.ttf') format('truetype'),
+       url('BloggerSans.svg#BloggerSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Blogger Sans';
+}
+.photo {
+  background-image: url('img/photo@small.png');
+  height: 300px;
+  width: 200px;
+  background-size: contain;
+}
+@media all and (min-device-pixel-ratio: 1.5) {
+  .photo {
+    background-image: url('img/photo@2x.png');
+  }
+}
+
+picture {
+  width: 300px;
+  height: 300px;
+}
