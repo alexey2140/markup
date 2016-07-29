@@ -17,12 +17,12 @@ body {
 }
 #logo {
 	position: absolute;
-	top: 25px;
+	top: 24px;
 	left: 34px;
 }
 #figure4 {
 	position: absolute;
-	top: 29px;
+	top: 28px;
 	right: 36px;
 }
 .footer {
@@ -50,12 +50,12 @@ body {
 }
 .navigation {
 	position: absolute;
-	top: 13px;
+	top: 12px;
 	left: 21px;
 	width: 391px;
 	height: 44px;
 }
-.navigation>div:hover {
+.nav:hover {
 	background-color: #EDF8FC;
 	border-radius: 10px;
 }
@@ -112,7 +112,7 @@ body {
 }
 h4 {
 	position: absolute;
-	top: 69px;
+	top: 68px;
 	left: 28px;
 }
 #aside-title {
@@ -120,72 +120,83 @@ h4 {
 	font-size: 28px;
 	font-weight: normal;
 }
-#aside-item1 {
-	position: absolute;
-	top: 155px;
-	left: 28px;
+
+article>img {
+	float: left;
+	margin-right: 16px;
+}
+
+#article1 {
 	width: 272px;
 	height: 73px;
-}
-article {
-	display: table;
-}
-article>img {
-	display: table-cell;
-}
-#aside-item1-text {
 	position: absolute;
-	top: 3px;
-	left: 109px;
-}
-#aside-item2 {
-	position: absolute;
-	top: 228px;
 	left: 28px;
+	top: 154px;
+}
+#aside-article1-p {
+	margin-top: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#article2 {
 	width: 272px;
-	height: 81px;
-}
-#aside-item2-text {
+	height: 73px;
 	position: absolute;
-	top: 3px;
-	left: 109px;
-}
-#aside-item3 {
-	position: absolute;
-	top: 323px;
 	left: 28px;
+	top: 227px;
+}
+#aside-article2-p {
+	margin-top: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+#article3 {
 	width: 272px;
-	height: 81px;
-}
-#aside-item3-text {
+	height: 73px;
 	position: absolute;
-	top: 2px;
-	left: 109px;
-}
-#aside-item4 {
-	position: absolute;
-	top: 397px;
 	left: 28px;
-	width: 272px;
-	height: 81px;
+	top: 322px;
 }
-#aside-item4-text {
+#aside-article3-p {
+	margin-top: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+#article4 {
+	width: 272px;
+	height: 73px;
 	position: absolute;
-	top: 3px;
-	left: 109px;
+	left: 28px;
+	top: 396px;
+}
+#aside-article4-p {
+	margin-top: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
 }
 h3 {
 	position: absolute;
 	top: 58px;
 	left: 18px;
-	font-family: 'Times New Roman';
+	font-family: "Times New Roman";
 	font-size: 27pt;
 	font-weight: normal;
 }
-#content-text {
+#text-under-title {
+	display: block;
+	align-content: center;
+	width: 600px;
+	font-family: Arial;
+	font-size: 14px;
 	position: absolute;
-	top: 154px;
-	left: 20px;
+	top: 138px;
+	left: 19px;
+	border: 1px solid green;
 }
 
 #slideshow {
@@ -207,8 +218,8 @@ h3 {
 	position: absolute;
 	top: 646px;
 	left: 19px;
-	width: 189px;
-	height: 219px;
+	width: 188px;
+	height: 217px;
 	border: 1px solid #1249C5;
 }
 #product-title-block1 {
@@ -218,22 +229,36 @@ h3 {
 	font-family: arial;
 	font-size: 18px;
 }
-#bottom-block1-text {
+#bottom-block-text {
+	font-family: Arial;
+	font-size: 14px;	
+	border: 1px solid red;
 	position: absolute;
-	top: 50px;
-	left: 10px;
+	top: 34px;
+	text-align: center;
 }
-#bottom-button-more-blue {
+#bottom-button-more {
 	position: absolute;
 	top: 172px;
 	left: 53px;
+	width: 83px;
+	height: 33px;
+	background-image: url(../images/bottom-button-more-light.png);
+}
+#bottom-button-more:hover {
+	position: absolute;
+	top: 172px;
+	left: 53px;
+	width: 83px;
+	height: 33px;
+	background-image: url(../images/bottom-button-more.png);
 }
 #block2 {
 	position: absolute;
 	top: 646px;
 	left: 224px;
-	width: 189px;
-	height: 219px;
+	width: 188px;
+	height: 217px;
 	border: 1px solid #1249C5;
 }
 #product-title-block2 {
@@ -243,17 +268,12 @@ h3 {
 	font-family: arial;
 	font-size: 18px;
 }
-#bottom-block2-text {
-	position: absolute;
-	top: 50px;
-	left: 10px;
-}
 #block3 {
 	position: absolute;
 	top: 646px;
 	left: 429px;
-	width: 189px;
-	height: 219px;
+	width: 188px;
+	height: 217px;
 	border: 1px solid #1249C5;
 }
 #product-title-block3 {
@@ -262,11 +282,6 @@ h3 {
 	left: 45px;
 	font-family: arial;
 	font-size: 18px;
-}
-#bottom-block3-text {
-	position: absolute;
-	top: 50px;
-	left: 8px;
 }
 #animal2 {
 	position: absolute;
