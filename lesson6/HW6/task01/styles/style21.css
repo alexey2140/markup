@@ -181,22 +181,20 @@ article>img {
 }
 h3 {
 	position: absolute;
-	top: 58px;
+	top: 57px;
 	left: 18px;
 	font-family: "Times New Roman";
 	font-size: 27pt;
 	font-weight: normal;
 }
 #text-under-title {
-	display: block;
-	align-content: center;
 	width: 600px;
-	font-family: Arial;
+	font-family: "Arial";
 	font-size: 14px;
 	position: absolute;
 	top: 138px;
 	left: 19px;
-	border: 1px solid green;
+	letter-spacing: -0.1;
 }
 
 #slideshow {
