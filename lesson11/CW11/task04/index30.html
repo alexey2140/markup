@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alert</title>
+	<link href="styles/style30.css" rel="stylesheet">
+
+	<script>
+		var i = 1;
+		function ReColor() {
+			var SecondBlock;
+			SecondBlock = document.getElementById('second');
+
+			if (i%2 == 1) {
+				SecondBlock.style.color = 'red';
+				i++;
+			}
+			else {
+				SecondBlock.style.color = 'black';
+				i++;
+			}
+		}
+
+		function Calc() {
+			var FirstBlock = document.getElementsByClassName('First') [0];
+			var width = FirstBlock.offsetWidth;
+			var height = FirstBlock.offsetHeight;
+
+			alert("Div width = " + width + "and height = " + height);
+
+		}	
+	</script>
+</head>
+<body onload="Calc()">
+	<div class="First">
+		
+	</div>
+
+	<div id="second" onclick="ReColor()">Hello World!</div>
+</body>
+</html>

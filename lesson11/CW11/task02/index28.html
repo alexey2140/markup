@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alert</title>
+</head>
+<body onload="Square (5)">
+<div id="one" onclick="Info()"  style="width: 400px; height: 200px; background: red;">
+	some div
+</div>
+<script type="text/javascript">
+		// function Square(i) {
+		// 	i = i * i;
+		// 	alert(i);
+
+		// }
+
+		function Info () {
+			targetDiv = document.getElementById("one");
+			targetDiv.style.background = 'blue';
+
+			divWidth = targetDiv.offsetWidth;
+			divHeight = targetDiv.offsetHeight;
+			alert(divWidth);
+		}
+
+		
+
+
+
+</script>	
+</body>
+</html>

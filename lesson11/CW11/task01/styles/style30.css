@@ -1,0 +1,12 @@
+.First {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30px;
+	background-color: red;
+
+}
+#second {
+	width: 400px;
+	height: 250px;
+	background-color: green;
+}
