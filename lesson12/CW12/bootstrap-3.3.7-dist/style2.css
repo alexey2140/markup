@@ -1,0 +1,11 @@
+.header a {
+	text-decoration: none;
+	margin-right: 40px;
+}
+.folio-item {
+	margin-bottom: 30px;
+}
+
+.folio-item img {
+	max-width: 100%;
+}
