@@ -1,0 +1,51 @@
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+header {
+  width: 100%;
+  background: url(../../img/banner.png);
+  height: 840px;
+  background-size: cover; }
+
+nav {
+  background: #2c3e50;
+  width: 100%;
+  height: 65px;
+  position: relative;
+  top: 775px; }
+
+img {
+  display: inline-block;
+  margin-top: 13px;
+  margin-right: 100px; }
+
+.signbtn {
+  display: inline-block;
+  margin-top: 13px;
+  width: 170px;
+  height: 38px;
+  border-radius: 3px;
+  background: #e74c3c;
+  margin-left: 70px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  color: #5c80a4;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 65px;
+  display: inline-block; }
+
+li {
+  display: inline-block;
+  margin-right: 60px; }
+
+li:hover {
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
